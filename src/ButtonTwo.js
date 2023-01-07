@@ -12,6 +12,10 @@ const ButtonTwo = () => {
         setWord(!word)
     }
 
+    const clickHandleAlert = () => {
+        alert("Your messing with te wrong person")
+    }
+
     return (
         <>
             <div className="work">
@@ -23,6 +27,7 @@ const ButtonTwo = () => {
                 {word ? 'Pravin Raj is my friend' : 'Pravin Raj is my guru'}
             </div>
             <button className="btn1" onClick={clickHandle}>Random Click</button>
+            <button className="btn1" onClick={clickHandleAlert}>Click to See alert</button>
         </>
     )
 }
