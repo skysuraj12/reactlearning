@@ -24,9 +24,9 @@ const ButtonTwo = () => {
             <button className="btn1" onClick={handleClick}>Click To Know More About Pravin</button>
 
             <div className="word">
-                {word ? 'Pravin Raj is my friend' : 'Pravin Raj is my guru'}
+                {word ? 'lernt some thing in react' : 'need more trainning'}
             </div>
-            <button className="btn1" onClick={clickHandle}>Random Click</button>
+            <button className="btn1" onClick={clickHandle}>Click to check react learning</button>
             <button className="btn1" onClick={clickHandleAlert}>Click to See alert</button>
         </>
     )
