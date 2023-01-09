@@ -8,7 +8,7 @@ const FirstChild = props => {
     return (
 
         <>
-            <div className="result">Button oddClicked {result} times </div>
+            <div className="result">Button Clicked <span className="request1">{result} </span> times </div>
         </>
     )
 }

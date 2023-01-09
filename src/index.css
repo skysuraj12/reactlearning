@@ -5,19 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://img.freepik.com/premium-photo/abstract-white-lines-background-minimal-dynamic-shape-3d-rendering_224530-2017.jpg?w=1380");
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
+
 .result {
-  color: brown;
+  font-size: 4rem;
+  text-align: center;
+  height: 10vh;
+  line-height: 10vh;
+  color: #fcedd8;
+  background: #d52e3f;
+  font-family: "Niconne", cursive;
+  font-weight: 20px;
+}
+
+.work {
+  color: rgb(61, 4, 194);
   font: 2em sans-serif;
 }
 
 .work {
   color: rgb(61, 4, 194);
+  font: 2em sans-serif;
+}
+
+.work2 {
+  color: rgb(240, 12, 12);
   font: 2em sans-serif;
 }
 
@@ -32,4 +48,17 @@ code {
   margin: 4px 2px;
   cursor: pointer;
   padding: 10px 24px;
+}
+
+.request {
+  margin: auto;
+  color: white;
+  font: 700 normal 2.5em "tahoma";
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+}
+.request1 {
+  margin: auto;
+  color: white;
+  font: 50 normal 1.25em "tahoma";
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
 }

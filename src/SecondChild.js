@@ -1,6 +1,6 @@
 import { useState } from "react"
 import ButtonTwo from "./ButtonTwo"
-
+import ChangeText from "./ChangeText"
 const SecondChild = props => {
     const { work, depart, group } = props
     console.log('work2', work)
@@ -29,6 +29,7 @@ const SecondChild = props => {
             <button className="btn1" onClick={event => window.location.replace('https://codefrontend.com')}>Click To replace the page</button>
             <button className="btn1" onClick={openNewTab}>Click To open in new tab</button>
             <ButtonTwo />
+            <ChangeText />
         </>
     )
 }
