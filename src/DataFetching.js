@@ -23,6 +23,7 @@ const DataFetching = () => {
     return (
         <>
             <div>
+                <span className="spamCss">Enter any Number </span>
                 <input type='text' value={id} onChange={e => setId(e.target.value)}></input>
                 {/* <ul>
                     {
@@ -32,8 +33,9 @@ const DataFetching = () => {
                     }
                 </ul> */}
                 <button type="button" className="btn1" onClick={handleClick}>Fetch Post</button>
-                <div className="request">{post.title}</div>
-
+                <div className="container">
+                    <div className="request">{post.title}</div>
+                </div>
             </div>
 
         </>

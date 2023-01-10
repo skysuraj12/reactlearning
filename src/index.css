@@ -62,3 +62,12 @@ code {
   font: 50 normal 1.25em "tahoma";
   text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
 }
+.spamCss {
+  color: rgb(17, 10, 116);
+  font-weight: bold;
+  font-size: 20px;
+}
+.container {
+  width: 100%;
+  border: 15px solid rgb(70, 101, 70);
+}
