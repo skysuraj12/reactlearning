@@ -8,6 +8,7 @@ const ChangeText = () => {
 
     const clickToChange = () => {
         // alert('this is to change css')
+        // alert('this is to change css')
         setCss(!initialCss)
     }
     const cssCheck = initialCss ? "work" : "work2"
